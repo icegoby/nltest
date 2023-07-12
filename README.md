@@ -1,5 +1,10 @@
 # Sample Action frame transmit command
 
+## Prepare
+
+1. Copy ieee80211.h in linux kernel header files to this source directory.
+1. Install libnl-3 and libnl-genl-3.
+
 ## Install
 
 1. Modify IFNAME in `nltest.c` to the interface name to transmit.
